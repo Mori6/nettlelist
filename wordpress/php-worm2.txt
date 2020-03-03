@@ -1,0 +1,11 @@
+hudson
+shell?busybox
+.env.local
+solr/admin/info/system?wt=json
+?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>
+XDEBUG_SESSION_START=phpstorm
+index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP
+vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+portal/redlion
+http://<address>/testget?q=23333&port=80
+
